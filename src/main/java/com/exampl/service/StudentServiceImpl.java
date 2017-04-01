@@ -10,10 +10,12 @@ public class StudentServiceImpl implements StudentService {
 	public List<Student> getStudentDetails() {
 		List<Student> studList = new ArrayList<Student>();
 		Student stud = new Student();
-		stud.setStudId(90);
-		stud.setStudName("SAPPY");
+		stud.setStudId(111);
+		stud.setStudName("Sappy");
+		stud.setStudRoll(11);
 		studList.add(stud);
 		return studList;
+
 	}
 
 }

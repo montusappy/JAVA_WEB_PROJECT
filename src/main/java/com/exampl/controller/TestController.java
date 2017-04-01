@@ -16,12 +16,6 @@ public class TestController {
 	@RequestMapping(method = RequestMethod.GET)
 	public List<Student> printHello(ModelMap model) {
 		
-		List<Student> studList = new ArrayList<Student>();
-		Student stud = new Student();
-		stud.setStudId(111);
-		stud.setStudName("Sappy");
-		stud.setStudRoll(11);		
-		studList.add(stud);
 		
 		
 		return studList;

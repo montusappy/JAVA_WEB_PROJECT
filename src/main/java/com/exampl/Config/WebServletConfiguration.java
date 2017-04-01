@@ -1,4 +1,4 @@
-package main.java.com.exampl.Config;
+package com.exampl.Config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;

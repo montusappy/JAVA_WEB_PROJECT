@@ -1,4 +1,4 @@
-package main.java.com.exampl.Config;
+package com.exampl.Config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
